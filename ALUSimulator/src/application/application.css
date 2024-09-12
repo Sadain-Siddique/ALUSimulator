@@ -1,0 +1,32 @@
+.backgroundColor{
+    -fx-background-color: #1d374a;
+}
+
+.button {
+	-fx-background-color: linear-gradient(to bottom left, #0096ff, #cceaff);
+}
+
+.button:hover {
+	-fx-background-color: #07f7f7;
+}
+
+.button:pressed {
+	-fx-background-color: #239c9c;
+}
+
+.jfx-text-field, .jfx-text-area {
+    -fx-prompt-text-fill: WHITE;
+    -fx-text-inner-color: white;
+}
+
+.label{
+	-fx-text-fill: "white";
+}
+
+.warningLabel{
+	-fx-text-fill: "red";
+}
+
+.combo-box .cell:selected {
+    -fx-text-fill: white;
+}
